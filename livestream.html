@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EABD Live!</title>
+    <link rel="stylesheet" href="/css/livestream.css.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="news.html">News</a>
+            <a href="#">LiveStream</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <span style="font-size:70px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <div class="leadText">
+        <H1>Eva and the Big Deals</H1>
+        <h2>Live Stream</h2>
+    </div>
+
+
+
+
+    <!--Nav JS-->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+
+</body>
+
+</html>
