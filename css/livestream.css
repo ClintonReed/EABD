@@ -1,0 +1,10 @@
+body h1 {
+    font-size: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: inherit;
+}
+body h3 {
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: inherit;
+}
