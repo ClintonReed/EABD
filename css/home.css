@@ -36,14 +36,15 @@ body h3 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body h1,
-  h3 {
+  body .display-1,
+  .display-3 {
     margin-top: 0px;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1;
   }
-  body h3 {
+  body .display-3 {
+    font-size: 2rem;
     padding-bottom: 0px;
   }
   #footer {
