@@ -1,10 +1,42 @@
+body {
+    background-image: linear-gradient(to right, #ffffff, #b31414);
+}
+
 body h1 {
-    font-size: 80px;
+    font-size: 10vw;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: inherit;
 }
 body h3 {
-    font-size: 60px;
+    font-size: 8vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: inherit;
+    padding-bottom: 70px;
+}
+
+#hamburger {
+    font-size: 3vw;
+}
+
+#headerDisplay {
+    text-align: center;
+}
+
+#soundCloud {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#footer {
+    padding-top: 60px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: inherit;
 }
+
+@media screen and (max-height: 450px) {
+    #hamburger {
+        resize: 10px 10px;
+    }
+  }
+  
