@@ -18,7 +18,9 @@ body h3 {
 }
 
 #aboutText {
-  text-align: center;
+  padding-top: 14px;
+  align-self: flex-start;
+  text-align: left;
   font-size: 20px;
 }
 
@@ -33,7 +35,6 @@ body h3 {
 }
 
 #footer {
-  padding-top: 10px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: inherit;
 }
@@ -55,5 +56,8 @@ body h3 {
     padding-top: 0px;
     font-weight: lighter;
     font-size: 10px;
+  }
+  #aboutText {
+    text-align: center;
   }
 }
