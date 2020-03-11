@@ -1,30 +1,59 @@
 body {
-    background-image: linear-gradient(to right, #d44b4b, #df9fd1);
-  }
-  
-  body h1 {
-    margin-top: -100px;
-    padding-top: -70px;
-    font-size: 7vw;
-    font-weight: bold;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: auto;
-  }
-  body h3 {
-    font-size: 6vw;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: auto;
-    padding-bottom: 50px;
-  }
-  
-  
-  #headerDisplay {
-    text-align: center;
-  }
-  
+  background-image: linear-gradient(to right, #d44b4b, #df9fd1);
+}
+
+body h1 {
+  margin-top: -100px;
+  padding-top: -70px;
+  font-size: 7vw;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: auto;
+}
+body h3 {
+  font-size: 6vw;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: auto;
+  padding-bottom: 50px;
+}
+
+#aboutText {
+  text-align: center;
+  font-size: 20px;
+}
+
+#headerDisplay {
+  text-align: center;
+}
+
+.img-responsive {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 #footer {
-    padding-top: 55px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: inherit;
+  padding-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: inherit;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body .display-1,
+  .display-3 {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
   }
-  
+  body .display-3 {
+    font-size: 2rem;
+    padding-bottom: 0px;
+  }
+  #footer {
+    padding-top: 0px;
+    font-weight: lighter;
+    font-size: 10px;
+  }
+}
