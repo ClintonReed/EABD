@@ -7,6 +7,8 @@
     <title>EABD About</title>
     <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -20,16 +22,14 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
                     <a href="index.html">Home</a>
-                    <a href="#">About</a>
+                    <a href="about.html">About</a>
                     <a href="news.html">News</a>
                     <a href="livestream.html">Live</a>
                     <a href="contact.html">Contact</a>
                 </div>
             </div>
-
-            <span style="font-size:70px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-            <div class="container" id="headerDisplay">
+            <span id="hamburger" style="font-size:70px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <div class="container-fluid" id="headerDisplay">
                 <h1 class="display-1">Eva and The Big Deals</h1>
                 <h3 class="display-3">About Us</h3>
             </div>
@@ -38,34 +38,31 @@
 
     <main>
         <div class="container" id="imageHolder">
-            <div class="row">
-                <div class="container-sm" id="aboutImage">
-                    <img class="img-responsive" src="./pics/band-members-playing-on-stage-1749822.jpg"
-                        alt="placeholder 1">
-                </div>
-                <div class="container-sm" id="aboutImage">
-                    <img class="img-responsive" src="./pics/people-at-concert-1105666.jpg" alt="placeholder 2">
-                </div>
-                <div class="container-sm" id="aboutImage">
-                    <img class="img-responsive" src="./pics/people-gathering-near-stage-with-fireworks-1306791.jpg"
-                        alt="placeholder 3">
-                </div>
+            <div class="container" id="aboutImage">
+                <img class="img-responsive" src="./pics/EABD 1.5.png" alt="placeholder 1">
             </div>
         </div>
         <div class="container" id="aboutText">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales dictum ex. Curabitur at
-                cursus nisi. Cras risus massa, iaculis luctus bibendum et, suscipit sit amet turpis. Donec viverra,
-                sapien eu finibus feugiat, magna quam sagittis tellus, sit amet feugiat sem libero sit amet ex. Nam
-                tincidunt ligula nec laoreet varius. Proin ac porttitor leo. Nunc feugiat finibus augue eu dapibus.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam erat
-                libero, pulvinar eu rutrum ut, volutpat et quam. Pellentesque ornare nibh ut erat vestibulum, in
-                ullamcorper sapien ultrices. Sed nec augue turpis. Etiam et congue est, vel tristique lacus. Morbi
-                porttitor mi sed tellus consectetur, in aliquam ipsum sagittis.</p>
+            <p>Eva and The Big Deals is a rock group from Louisville, KY. Formed in May of 2019 by lead singer Eva the
+                Diva, the band consists of 5 members from various musical backgrounds. Joining Eva is The Big Deals,
+                lead by guitar player Tyler (aka "The Conductor"), drummer and producer Clinton (aka "The Wizard"),
+                and keyboardist Nicholas (aka "Captain Keys"). The group is managed, meme'd, and morally supported by
+                Kate (aka "The Reverend").</p>
         </div>
+        <div id="mySocial" class="icon-bar">
+            <a href="https://www.facebook.com/EvaATBD/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+            <a href="https://soundcloud.com/user-463634315" class="soundcloud"><i class="fa fa-soundcloud"></i></a>
+        </div>
+
     </main>
 
-
-
+    <footer>
+        <div class="container-fluid" id="footer">
+            <p>&copy; 2020 <a href="https:\\www.creedprod.com">Sea Reed Productions</a></p>
+        </div>
+    </footer>
 
 
     <!--Nav JS-->
