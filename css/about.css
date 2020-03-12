@@ -9,6 +9,7 @@ body h1 {
   font-weight: bold;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: auto;
+  text-decoration: underline;
 }
 body h3 {
   font-size: 6vw;
